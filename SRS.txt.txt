@@ -1,0 +1,55 @@
+Software Requirements Specification (SRS) Document: Employee Recruitment System
+
+1. Introduction
+   1.1 Purpose
+   The purpose of this document is to provide a detailed description of the requirements for the Employee Recruitment System. It depicts the functional and non-functional constraints and requirements of the system.
+
+   1.2 Scope
+   The Employee Recruitment System is a web-based application. It allows organization to manage jobseeker information, shortlist candidates, track interviews organized, upload CVs, handle job requests, generate reports, and hire new employees. The system will provide an efficient and centralized solution for managing employee-related tasks.
+2. Objective
+   The main objective to develop this system is to optimize the recruitment process for an organization. It facilitates various interfaces to make recruitment related task easy.
+
+3. Definition 
+   - UI: User Interface 
+  - SRS: Software Requirements Specification
+
+4. Functional Requirements
+   4.1 Jobseeker Information Management
+      - Administrators should be able to add, update, and delete new jobseeker records.
+      - Each jobseeker record should include details such as name, candidate ID, contact information, area of interest.
+      - The system should store and display jobseeker photos, if available.
+4.2 Interview Tracking
+      - Jobseekers should be able to add their available interviews using a date and time tracking feature.
+      - The system should calculate the total interviews and offers a candidate has and also maintain a record of them.
+4.3 Employee Reports
+      - The system should generate reports on jobseekers offers, interviews, and other relevant information.
+      - Reports may include jobseekers performance, job offer etc.
+
+   4.4 Notifications and Reminders
+      - The system should send notifications and reminders to jobseeker for pending upcoming intervies, or other important events.
+      - Notifications can be delivered via email, SMS, or through the system's user interface.
+5. Non-functional Requirements
+   5.1 Security
+      - Candidates data should be securely stored and accessible only to authorized personnel.
+      - User authentication and access control mechanisms should be implemented.
+      - Sensitive information such as passwords should be stored using encryption.
+
+   5.2 Performance
+      - The system should handle concurrent user requests without significant performance degradation.
+      - The response time for retrieving jobseeker candidate’s records, generating reports, and processing leave requests should be minimal.
+
+   5.3 Usability
+      - The user interface should be intuitive and user-friendly.
+      - The system should provide clear and informative error messages.
+      - The system should support multiple languages if required.
+
+6. Constraints
+   - The Employee Management System will be developed using a web-based architecture.
+   - The system should be compatible with popular web browsers such as Chrome, Firefox, and Safari.
+   - The system should be responsive and accessible on different devices.
+7. Interfaces
+   - User Interface: The system will provide a web-based user interface for administrators, managers, and employees to interact with.
+   - Database: The system will interact with a database to store and retrieve candidate information, interview records, and leave requests.
+
+
+
